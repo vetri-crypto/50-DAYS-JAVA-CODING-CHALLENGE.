@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main{
+      public static void main(String args[]){
+         Scanner in=new Scanner (System.in);
+         int a=10; 
+         int b=20; 
+         int c=a+b;
+         System.out.println("Addition value:"+c) ;
+         //Using Scanner
+         System.out. println("Enter 'a' Number:"); int d=in.nextInt();
+         System.out.println("Enter 'b' Number:"); int e=in.nextInt();
+         int f=d+e;
+         System.out.println("Addition value using Scanner:"+f);
+     }
+}
