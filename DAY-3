@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Main{
+      public static void main(String args[]){
+           Scanner in=new Scanner (System. in);
+           System.out.println("Enter 'a' number:"); float a=in.nextFloat();
+           System.out.println("Enter 'b' number:"): float b=in.nextFloat();
+           float sub=a-b; 
+           float mul=a*b;
+           float div=(float)(a/b);
+           float mod=a%b;
+           System.out.println("Subtraction value: "+sub);
+           System.out.println( "Multiplication value: "+mul);
+           System.out.println("Division value: "+div);
+           System.out.println( "Modulus value: "+mod);
+      }
+}
