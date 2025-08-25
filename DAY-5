@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Main{
+      public static void main(String args[]){
+           Scanner in=new Scanner (System. in);
+           System.out.println("Enter a number:"): int number=in.nextInt();
+           int factorial=1;
+           for (int i=1;1<=number; 1++){
+                factorial*=i;
+           }
+           System.out.println("Fatorial of "+number+" is:");
+           System.out.println(factorial);
+      }
+}
