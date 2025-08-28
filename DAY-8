@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Main{
+      public static void main(String args[l){
+          Scanner in=new Scanner (System.in);
+          System.out.println("Enter a 1st number:");
+          int number1=in.nextInt();
+          System.out.println("Enter a 2nd number:");
+          int number2=in.nextInt();
+          System.out.println("Enter a 3rd number:");
+          int number3=in.nextInt();
+          if(number1>number2&&number1>number3){
+             System.out.println("1st number is greater number"+"("+number1+")");
+          }
+          else if(number2>number1&&number2>number3){
+             System.out.println("2nd number is greater number"+"("+number2+")");
+          }
+          else{
+             System.out.println("3rd number is greater number"+"("+number3+")");
+          }
+      }
+}
