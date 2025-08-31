@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class Main{
+          public static void main(String args[]){
+              Scanner in=new Scanner(System.in);
+              System.out.println("Tamil Mark:");
+              float tamil=in.nextFloat();
+              System.out.println("English Mark:");
+              float english=in.nextFloat();
+              System.out.println("Maths Mark:");
+              float maths=in.nextFloat();
+              System.out.println("Science Mark:");
+              float science=in.nextFloat();
+              System.out.println("SocialScience Mark:");
+              float social=in.nextFloat();
+              System.out.println();
+              float total=tamil+english+maths+science+social;
+              float average=total/5;
+              if(tamil>=35&&english>=35&&maths>=35&&science>=35&&social>=35){
+                  if(average>=90){
+                  System.out.println("A Grade Total Mark:"+total);
+                  System.out.println("Average:"+average+"%*);
+              }
+              else if(average>=70&&average<90){
+                 System.out.println("B Grade Total Mark:"+total);
+                 System.out.println("Average:"+average+"%");
+              }
+             else{
+                 System.out.println("C Grade Total mark:"+total);
+                 System.out.println("Average:"+average+"%");
+             }
+             }
+             else{
+                 System.out.println("Fail!");
+             }
+          }
+    }
